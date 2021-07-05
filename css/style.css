@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+    font-size: 15px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.title h3 {
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.title p {
+    color: hsl(229, 6%, 66%);
+    margin: auto 30% 5%;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    height: 250px;
+    width: 340px;
+    box-shadow: 0 4px 8px 0 rgba(58, 59, 59, 0.2), 0 6px 20px 0 rgba(170, 168, 168, 0.19);
+}
+
+.image {
+	position: absolute;
+	right: 30px;
+	top: 65%;
+}
+.card-1 {
+	border-top: 4px solid hsl(180, 62%, 55%);
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 9.45vw;
+}
+
+.card-2 {
+	border-top: 4px solid hsl(0, 78%, 62%);
+	position: absolute;
+	margin-left: 31rem;
+}
+
+.card-3 {
+	border-top: 4px solid hsl(34, 97%, 64%);
+	position: absolute;
+	margin-left: 31rem;
+	margin-top: 280px;
+}
+
+.card-4 {
+	border-top: 4px solid hsl(212, 86%, 64%);
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 53.95rem;
+}
+
+.heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 15px 25px 0 30px;
+}
+
+.data {
+    padding: 0 15px 25px 30px;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.85rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 39rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 900px) {
+    .title h2 {
+        margin: 4rem 9% 0px;
+        font-size: 1.5rem;
+    }
+    .title h3 {
+        margin: 0 auto 1rem;
+        font-size: 1.5rem;
+    }
+    .title p {
+        margin: auto 9% 5%;
+    }
+    .card-1, .card-2, .card-3, .card-4 {
+        width: 310px;
+    }
+    .card-1 {
+        margin-top: 45px;
+        margin-left: 5.4vw;
+    }
+    .card-2 {
+        margin-top: 320px;
+        margin-left: 5.4vw;
+    }
+    .card-3 {
+        margin-top: 595px;
+        margin-left: 5.4vw;
+    }
+    .card-4 {
+        margin-top: 870px;
+        margin-left: 5.4vw;
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 72.5rem;
+        margin-left: -10px;
+    }
+}
