@@ -28,8 +28,8 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/four-card-feature-section-wDMuf--1O)
+- Live Site URL: [live site](https://four-card-sec.netlify.app/)
 
 ### Built with
 
